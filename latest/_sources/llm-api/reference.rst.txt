@@ -360,7 +360,7 @@ API Reference
     :special-members: __init__
     :member-order: groupwise
     :inherited-members:
-    :exclude-members: model_validate,parse_file,update_forward_refs,model_fields_set,model_post_init,copy,parse_raw,dict,schema,model_validate_json,model_rebuild,model_validate_strings,parse_obj,model_config,model_parametrized_name,model_copy,model_computed_fields,schema_json,model_fields,model_dump,from_orm,validate,json,model_dump_json,model_extra,model_json_schema,model_construct,construct
+    :exclude-members: schema,model_computed_fields,model_validate_json,parse_file,model_json_schema,model_dump_json,model_validate_strings,model_validate,from_orm,model_post_init,model_fields_set,dict,update_forward_refs,model_extra,model_config,model_rebuild,model_copy,model_construct,validate,json,model_fields,parse_raw,copy,parse_obj,construct,schema_json,model_parametrized_name,model_dump
 
 .. autoclass:: tensorrt_llm.llmapi.AutoDecodingConfig
     :members:
@@ -467,14 +467,6 @@ API Reference
     :inherited-members:
 
 .. autoclass:: tensorrt_llm.llmapi.add_thinking_budget_logits_processor
-    :members:
-    :undoc-members:
-    :show-inheritance:
-    :special-members: __init__
-    :member-order: groupwise
-    :inherited-members:
-
-.. autoclass:: tensorrt_llm.llmapi.DeepSeekV4SparseAttentionConfig
     :members:
     :undoc-members:
     :show-inheritance:

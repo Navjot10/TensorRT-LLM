@@ -36,7 +36,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/autodoc_pydantic.css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
-    <link rel="stylesheet" type="text/css" href="../_static/config_selector.css?v=83e831d6" />
+    <link rel="stylesheet" type="text/css" href="../_static/config_selector.css?v=4351f35f" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=19d20f17" />
   
   <!-- So that users can add custom icons -->
@@ -52,7 +52,7 @@
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=65e89d2a"></script>
-    <script src="../_static/config_selector.js?v=52eb2d38"></script>
+    <script src="../_static/config_selector.js?v=5991fb72"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
@@ -63,7 +63,7 @@
     <script>
         DOCUMENTATION_OPTIONS.theme_version = '0.20.0';
         DOCUMENTATION_OPTIONS.theme_switcher_json_url = './_static/switcher.json';
-        DOCUMENTATION_OPTIONS.theme_switcher_version_match = '1.3.0rc22';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = '1.3.0rc23';
         DOCUMENTATION_OPTIONS.show_version_warning_banner =
             false;
         </script>
@@ -77,7 +77,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="1.3.0rc22" />
+  <meta name="docsearch:version" content="1.3.0rc23" />
   
     
     <script src="../_static/searchtools.js"></script>
@@ -1490,18 +1490,24 @@
 </dd></dl>
 
 <dl class="cpp function">
-<dt class="sig sig-object cpp" id="_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter32splitTransferDescsWithRegionMapsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMap">
-<span id="_CPPv3N12tensorrt_llm8executor8kv_cache15VmmDescSplitter32splitTransferDescsWithRegionMapsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMap"></span><span id="_CPPv2N12tensorrt_llm8executor8kv_cache15VmmDescSplitter32splitTransferDescsWithRegionMapsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMap"></span><span id="tensorrt_llm::executor::kv_cache::VmmDescSplitter::splitTransferDescsWithRegionMaps__MemoryDescsCR.MemoryDescsCR.VramRegionMapCR.VramRegionMapCR"></span><span class="target" id="structtensorrt__llm_1_1executor_1_1kv__cache_1_1VmmDescSplitter_1a350fdc5f5d2362d6995bca609d781219"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">pair</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cache11MemoryDescsE" title="tensorrt_llm::executor::kv_cache::MemoryDescs"><span class="n"><span class="pre">MemoryDescs</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cache11MemoryDescsE" title="tensorrt_llm::executor::kv_cache::MemoryDescs"><span class="n"><span class="pre">MemoryDescs</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">splitTransferDescsWithRegionMaps</span></span></span><span class="sig-paren">(</span>
+<dt class="sig sig-object cpp" id="_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter29splitAndCoalesceTransferDescsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMapb">
+<span id="_CPPv3N12tensorrt_llm8executor8kv_cache15VmmDescSplitter29splitAndCoalesceTransferDescsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMapb"></span><span id="_CPPv2N12tensorrt_llm8executor8kv_cache15VmmDescSplitter29splitAndCoalesceTransferDescsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMapb"></span><span id="tensorrt_llm::executor::kv_cache::VmmDescSplitter::splitAndCoalesceTransferDescs__MemoryDescsCR.MemoryDescsCR.VramRegionMapCR.VramRegionMapCR.b"></span><span class="target" id="structtensorrt__llm_1_1executor_1_1kv__cache_1_1VmmDescSplitter_1a1336c4b895761ec0273b533c4774a88f"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">pair</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cache11MemoryDescsE" title="tensorrt_llm::executor::kv_cache::MemoryDescs"><span class="n"><span class="pre">MemoryDescs</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cache11MemoryDescsE" title="tensorrt_llm::executor::kv_cache::MemoryDescs"><span class="n"><span class="pre">MemoryDescs</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">splitAndCoalesceTransferDescs</span></span></span><span class="sig-paren">(</span>
 
 <dl>
 <dd><em class="sig-param"><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cache11MemoryDescsE" title="tensorrt_llm::executor::kv_cache::MemoryDescs"><span class="n"><span class="pre">MemoryDescs</span></span></a><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">srcDescs</span></span></em>,</dd>
 <dd><em class="sig-param"><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cache11MemoryDescsE" title="tensorrt_llm::executor::kv_cache::MemoryDescs"><span class="n"><span class="pre">MemoryDescs</span></span></a><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">dstDescs</span></span></em>,</dd>
 <dd><em class="sig-param"><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cache13VramRegionMapE" title="tensorrt_llm::executor::kv_cache::VramRegionMap"><span class="n"><span class="pre">VramRegionMap</span></span></a><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">localRegionMap</span></span></em>,</dd>
 <dd><em class="sig-param"><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cache13VramRegionMapE" title="tensorrt_llm::executor::kv_cache::VramRegionMap"><span class="n"><span class="pre">VramRegionMap</span></span></a><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">remoteRegionMap</span></span></em>,</dd>
+<dd><em class="sig-param"><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">enableCoalesce</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">true</span></span></em>,</dd>
 </dl>
 
-<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter32splitTransferDescsWithRegionMapsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMap" title="Link to this definition">#</a><br /></dt>
-<dd><p>Split paired src/dst descs using local and remote region maps. src is split by localRegionMap, dst is split by remoteRegionMap. The final piece size is min(srcPiece, dstPiece, remaining). </p>
+<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter29splitAndCoalesceTransferDescsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMapb" title="Link to this definition">#</a><br /></dt>
+<dd><p>Split paired src/dst descs at chunk boundaries, then coalesce contiguous pieces. src is split by localRegionMap, dst is split by remoteRegionMap; each piece size is min(srcPiece, dstPiece, remaining). Pairs are sorted by src address, and adjacent pieces whose src AND dst are both contiguous (same deviceId) are merged — but a merged desc never crosses a chunk boundary on either side, and never spans two distinct regions, so every output desc stays within a single registered memory region. Merging requires region metadata: a piece whose address misses the region map on either side is never merged, because two unknown regions are indistinguishable and a merge could cross a chunk or registration boundary. With no region metadata the result is split-only. Non-kVRAM descs pass through unchanged (no region info is available to bound the merge). </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>enableCoalesce</strong> – When false, only split at chunk boundaries without merging pieces. </p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="cpp function">
@@ -9822,6 +9828,23 @@
 </dd></dl>
 
 <dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK12tensorrt_llm8executor20DataTransceiverState24isArbitraryTransferStateEv">
+<span id="_CPPv3NK12tensorrt_llm8executor20DataTransceiverState24isArbitraryTransferStateEv"></span><span id="_CPPv2NK12tensorrt_llm8executor20DataTransceiverState24isArbitraryTransferStateEv"></span><span id="tensorrt_llm::executor::DataTransceiverState::isArbitraryTransferStateC"></span><span class="target" id="classtensorrt__llm_1_1executor_1_1DataTransceiverState_1a5d32929918aa39dddbb76c02cf5a3ac7"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">isArbitraryTransferState</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK12tensorrt_llm8executor20DataTransceiverState24isArbitraryTransferStateEv" title="Link to this definition">#</a><br /></dt>
+<dd><p>Set only when exported via CacheTransceiver::getSerializedDataTransceiverState: transfers driven by such a state have no LlmRequest on the sender. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N12tensorrt_llm8executor20DataTransceiverState27setIsArbitraryTransferStateEb">
+<span id="_CPPv3N12tensorrt_llm8executor20DataTransceiverState27setIsArbitraryTransferStateEb"></span><span id="_CPPv2N12tensorrt_llm8executor20DataTransceiverState27setIsArbitraryTransferStateEb"></span><span id="tensorrt_llm::executor::DataTransceiverState::setIsArbitraryTransferState__b"></span><span class="target" id="classtensorrt__llm_1_1executor_1_1DataTransceiverState_1a0dcaf4a9ed3f77b9d10d83c3a7b2c937"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">setIsArbitraryTransferState</span></span></span><span class="sig-paren">(</span>
+
+<dl>
+<dd><em class="sig-param"><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">isArbitraryTransferState</span></span></em>,</dd>
+</dl>
+
+<span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N12tensorrt_llm8executor20DataTransceiverState27setIsArbitraryTransferStateEb" title="Link to this definition">#</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4NK12tensorrt_llm8executor20DataTransceiverStateeqERK20DataTransceiverState">
 <span id="_CPPv3NK12tensorrt_llm8executor20DataTransceiverStateeqERK20DataTransceiverState"></span><span id="_CPPv2NK12tensorrt_llm8executor20DataTransceiverStateeqERK20DataTransceiverState"></span><span id="tensorrt_llm::executor::DataTransceiverState::eq-operator__DataTransceiverStateCRC"></span><span class="target" id="classtensorrt__llm_1_1executor_1_1DataTransceiverState_1a20f158f89e0ecbcb0715f2fba32a8b78"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span>
 
@@ -9848,6 +9871,11 @@
 <dl class="cpp var">
 <dt class="sig sig-object cpp" id="_CPPv4N12tensorrt_llm8executor20DataTransceiverState10mCommStateE">
 <span id="_CPPv3N12tensorrt_llm8executor20DataTransceiverState10mCommStateE"></span><span id="_CPPv2N12tensorrt_llm8executor20DataTransceiverState10mCommStateE"></span><span id="tensorrt_llm::executor::DataTransceiverState::mCommState__std::optional:kv_cache::CommState:"></span><span class="target" id="classtensorrt__llm_1_1executor_1_1DataTransceiverState_1ae789fca8b62cef084d597fc4ebb71340"></span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cacheE" title="tensorrt_llm::executor::kv_cache"><span class="n"><span class="pre">kv_cache</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4N12tensorrt_llm8executor8kv_cache9CommStateE" title="tensorrt_llm::executor::kv_cache::CommState"><span class="n"><span class="pre">CommState</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mCommState</span></span></span><a class="headerlink" href="#_CPPv4N12tensorrt_llm8executor20DataTransceiverState10mCommStateE" title="Link to this definition">#</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N12tensorrt_llm8executor20DataTransceiverState25mIsArbitraryTransferStateE">
+<span id="_CPPv3N12tensorrt_llm8executor20DataTransceiverState25mIsArbitraryTransferStateE"></span><span id="_CPPv2N12tensorrt_llm8executor20DataTransceiverState25mIsArbitraryTransferStateE"></span><span id="tensorrt_llm::executor::DataTransceiverState::mIsArbitraryTransferState__b"></span><span class="target" id="classtensorrt__llm_1_1executor_1_1DataTransceiverState_1a77f86bb07f0777fdf39220ba93129ff0"></span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mIsArbitraryTransferState</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="k"><span class="pre">false</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N12tensorrt_llm8executor20DataTransceiverState25mIsArbitraryTransferStateE" title="Link to this definition">#</a><br /></dt>
 <dd></dd></dl>
 
 </div>
@@ -12563,7 +12591,7 @@
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitterE"><code class="docutils literal notranslate"><span class="pre">tensorrt_llm::executor::kv_cache::VmmDescSplitter</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h7 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter15lookupChunkInfoE9uintptr_tRK13VramRegionMap"><code class="docutils literal notranslate"><span class="pre">lookupChunkInfo()</span></code></a></li>
 <li class="toc-h7 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter23splitDescsWithRegionMapERK11MemoryDescsRK13VramRegionMap"><code class="docutils literal notranslate"><span class="pre">splitDescsWithRegionMap()</span></code></a></li>
-<li class="toc-h7 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter32splitTransferDescsWithRegionMapsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMap"><code class="docutils literal notranslate"><span class="pre">splitTransferDescsWithRegionMaps()</span></code></a></li>
+<li class="toc-h7 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter29splitAndCoalesceTransferDescsERK11MemoryDescsRK11MemoryDescsRK13VramRegionMapRK13VramRegionMapb"><code class="docutils literal notranslate"><span class="pre">splitAndCoalesceTransferDescs()</span></code></a></li>
 <li class="toc-h7 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter13splitVmmDescsERK11MemoryDescsR6size_t"><code class="docutils literal notranslate"><span class="pre">splitVmmDescs()</span></code></a></li>
 <li class="toc-h7 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor8kv_cache15VmmDescSplitter19detectVramRegionMapERK11MemoryDescs"><code class="docutils literal notranslate"><span class="pre">detectVramRegionMap()</span></code></a></li>
 </ul>
@@ -13930,10 +13958,13 @@
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor20DataTransceiverState12setCommStateEN8kv_cache9CommStateE"><code class="docutils literal notranslate"><span class="pre">setCommState()</span></code></a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4NK12tensorrt_llm8executor20DataTransceiverState12getCommStateEv"><code class="docutils literal notranslate"><span class="pre">getCommState()</span></code></a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4NK12tensorrt_llm8executor20DataTransceiverState16hasRnnCacheStateEv"><code class="docutils literal notranslate"><span class="pre">hasRnnCacheState()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4NK12tensorrt_llm8executor20DataTransceiverState24isArbitraryTransferStateEv"><code class="docutils literal notranslate"><span class="pre">isArbitraryTransferState()</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor20DataTransceiverState27setIsArbitraryTransferStateEb"><code class="docutils literal notranslate"><span class="pre">setIsArbitraryTransferState()</span></code></a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4NK12tensorrt_llm8executor20DataTransceiverStateeqERK20DataTransceiverState"><code class="docutils literal notranslate"><span class="pre">operator==()</span></code></a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4NK12tensorrt_llm8executor20DataTransceiverState8toStringEv"><code class="docutils literal notranslate"><span class="pre">toString()</span></code></a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor20DataTransceiverState11mCacheStateE"><code class="docutils literal notranslate"><span class="pre">mCacheState</span></code></a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor20DataTransceiverState10mCommStateE"><code class="docutils literal notranslate"><span class="pre">mCommState</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor20DataTransceiverState25mIsArbitraryTransferStateE"><code class="docutils literal notranslate"><span class="pre">mIsArbitraryTransferState</span></code></a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N12tensorrt_llm8executor8kv_cache10AgentStateE"><code class="docutils literal notranslate"><span class="pre">tensorrt_llm::executor::kv_cache::AgentState</span></code></a><ul class="nav section-nav flex-column">
@@ -14368,9 +14399,9 @@
         <div class="footer-item">
 <div class="extra_footer">
   
-  <p>Last updated on July 20, 2026.</p>
+  <p>Last updated on July 27, 2026.</p>
   
-  <p>This page is generated by TensorRT-LLM commit <a href="https://github.com/NVIDIA/TensorRT-LLM/tree/8ba9340">8ba9340</a>.</p>
+  <p>This page is generated by TensorRT-LLM commit <a href="https://github.com/NVIDIA/TensorRT-LLM/tree/1562a07">1562a07</a>.</p>
   
 </div></div>
       
